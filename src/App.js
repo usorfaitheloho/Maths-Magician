@@ -1,24 +1,16 @@
+import React, { Component } from 'react';
+import Calculator from './components/calculator';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="calculator">
-        <div className="display">
-          <span>(0)</span>
-          0
-        </div>
-        <div className="operators">
-          <button type="button">/</button>
-          <button type="button">*</button>
-          <button type="button">+</button>
-          <button type="button">-</button>
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-          <button type="button">DEL</button>
-        </div>
-      </div>
-    </div>
-  );
+  render() {
+    return <Calculator />;
+  }
 }
 
 export default App;
