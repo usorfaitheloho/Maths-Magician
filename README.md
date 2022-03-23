@@ -1,11 +1,14 @@
 # Maths-Magician
 
-> This is a solo project being built in our third module of our curriculum at microverse. We are first to setup a create-react-app and it's components correctly 
+> This is a solo project being built in our third module of our curriculum at microverse. This branch is the second step of the Math Magicians application. in this branch a React component is developed that holds the core functionality: a calculator
+
+![screenshot](images/screenshot-1.PNG)
 
 ### Features implemented so far are:
 
 - integrated create-react-app
 - install linters
+- use React components
 
 ## Built With
 
