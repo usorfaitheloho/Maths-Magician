@@ -7,35 +7,32 @@ class Calculator extends Component {
   }
 
   render() {
-    const createDigits = () => {
-      const digits = [];
-      for (let i = 1; i < 10; i += 1) {
-        digits.push(
-          <button type="button" key={i}>{i}</button>,
-        );
-      }
-      return digits;
-    };
     return (
       <div className="App">
         <div className="calculator">
           <div className="display">
-            <span>(0)</span>
             0
           </div>
-          <div className="operators">
-            <button type="button">/</button>
-            <button type="button">*</button>
-            <button type="button">+</button>
-            <button type="button">-</button>
-
-            <button type="button">DEL</button>
-          </div>
           <div className="digits">
-            { createDigits() }
-            <button type="button">0</button>
+            <button type="button">AC</button>
+            <button type="button">+/-</button>
+            <button type="button">%</button>
+            <button type="button" className="orange">/</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" className="orange">*</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" className="orange">-</button>
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" className="orange">+</button>
+            <button type="button" className="span-two">0</button>
             <button type="button">.</button>
-            <button type="button">=</button>
+            <button type="button" className="orange">=</button>
           </div>
         </div>
       </div>
