@@ -1,14 +1,15 @@
 # Maths-Magician
 
-> This is a solo project being built in our third module of our curriculum at microverse. This branch is the second step of the Math Magicians application. in this branch a React component is developed that holds the core functionality: a calculator
+> This is a solo project being built in our third module of our curriculum at microverse. This branch is the third step of the Math Magicians application. in this branch React events is developed that manipulates logical operations of the calculator
 
-![screenshot](images/screenshot-1.PNG)
+![screenshot](images/screenshot-2.PNG)
 
 ### Features implemented so far are:
 
 - integrated create-react-app
 - install linters
 - use React components
+- Implement React events and logic to perform operations
 
 ## Built With
 
