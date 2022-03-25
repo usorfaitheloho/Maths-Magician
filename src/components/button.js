@@ -1,14 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+export default function Button(props) {
 
-  render() {
-    const { value, onClick } = this.props;
+    const { value, onClick } = props;
     let className = /[0-9.AC/%/]/.test(value) ? 'btn' : 'btn btn-operation';
     className += value === 'AC/%/+/-' ? 'btn' : '';
     className += value === '0' ? ' btn-0' : '';
@@ -22,7 +17,6 @@ export default class Button extends React.Component {
         {value}
       </button>
     );
-  }
 }
 
 Button.propTypes = {
