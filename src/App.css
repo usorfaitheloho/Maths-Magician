@@ -22,52 +22,41 @@ body {
 }
 
 .calculator {
-  width: 100%;
-  max-width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   background-color: #fff;
   border-radius: 5px;
-  overflow: hidden;
+  gap: 0.2rem;
   box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
 }
 
 .display {
   padding: 16px;
   text-align: right;
+  grid-column: 4 span;
   background-color: var(--dark);
   color: var(--light);
   font-size: 24px;
   font-weight: 300;
 }
-
-button {
-  appearance: none;
-  border: 1px solid #888;
-  outline: none;
-  color: rgb(10, 10, 10);
-  font-size: 20px;
-  padding: 16px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-button:hover {
-  opacity: 0.9;
-}
-
-.digits {
+.calculator .btn{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  place-content: center;
+  padding: 2rem;
+  background-color: #ddd;
+  cursor: pointer;
+  border: none;
 }
 
-.digits button {
-  background-color: rgba(182, 176, 176, 0.582);
+.calculator .btn:hover {
+  opacity: 0.9;
+  background-color: #eee;
 }
 
-.digits .span-two {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.digits .orange {
+.calculator .btn-operation {
   background-color: orangered;
+}
+
+.btn-0{
+  grid-column: 2 span;
 }
