@@ -1,20 +1,23 @@
 # Maths-Magician
 
-> This is a solo project being built in our third module of our curriculum at microverse. This branch is the second step of the Math Magicians application. in this branch a React component is developed that holds the core functionality: a calculator
+> This is a solo project being built in our third module of our curriculum at microverse. This branch is the third step of the Math Magicians application. in this branch React events is developed that manipulates logical operations of the calculator
 
-![screenshot](images/screenshot-1.PNG)
+![screenshot](images/screenshot-2.PNG)
+
+Our goal here is to Build a Maths calculator using the React library Click [here](https://usorfaitheloho.github.io/Maths-Magician/dist) to get a live preview of the project
 
 ### Features implemented so far are:
 
 - integrated create-react-app
 - install linters
 - use React components
+- Implement React events and logic to perform operations
 
 ## Built With
 
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
-- Webpack (Used for bundling JavaScript files for usage in a browser)
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
 
 To get a local copy up and running follow these simple example steps.
 
