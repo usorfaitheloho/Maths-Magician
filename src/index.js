@@ -5,6 +5,7 @@ import App from './App';
 import Navbar from './components/Navbar/Navbar';
 import Quotes from './components/Quotes/Quotes';
 import Homepage from './components/Home/Homepage';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,6 @@ ReactDOM.render(
         <Route path="/Quotes" element={<Quotes />} />
       </Routes>
     </BrowserRouter>
-    <App />
   </React.StrictMode>,
   document.getElementById('root'),
 );
