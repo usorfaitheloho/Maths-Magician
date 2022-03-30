@@ -4,7 +4,7 @@
 
 ![screenshot](images/screenshot-3.PNG)
 
-Our goal here is to Build a Maths calculator using the React library Click [here](https://usorfaitheloho.github.io/Maths-Magician/) to get a live preview of the project
+Our goal here is to Build a Maths calculator using the React library Click [here](https://cheerful-centaur-710b9c.netlify.app/) to get a live preview of the project
 
 ### Features implemented so far are:
 
