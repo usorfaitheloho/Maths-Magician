@@ -2,7 +2,7 @@
 
 > This is a solo project being built in our third module of our curriculum at microverse. This branch is the third step of the Math Magicians application. in this branch React events is developed that manipulates logical operations of the calculator
 
-![screenshot](images/screenshot-2.PNG)
+![screenshot](images/screenshot-3.PNG)
 
 Our goal here is to Build a Maths calculator using the React library Click [here](https://usorfaitheloho.github.io/Maths-Magician/dist) to get a live preview of the project
 
