@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Sigmar+One&family=Special+Elite&display=swap');
 
 .navBar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 10px 10%;
+  padding: 10px 5%;
   background-color: rgb(16, 241, 219);
   width: 100%;
   display: flex;
   align-items: center;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -21,7 +19,6 @@
 }
 
 .nav li {
-  margin-left: 40px;
   text-decoration: none;
   padding: 6px 12px;
   border: 1px solid black;
@@ -45,7 +42,17 @@ a:hover {
 .logo {
   color: orange;
   font-family: cursive;
-  font-size: 27px;
+  font-size: 1rem;
   line-height: 1.5;
   text-shadow: 1px 2px black;
+}
+
+@media only screen and(min-width: 768px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav li {
+    padding: 12px;
+  }
 }
